@@ -9,7 +9,7 @@ switch (true){
     case xpHeroi >= 1001 && xpHeroi <= 2000:
         nivelHeroi = "Bronze";
         break;
-    case xpHeroi >= 2001 && xpHeroi <= 5000:
+    case xpHeroi >= 2001 && xpHeroi <= 6000:
         nivelHeroi = "Prata"
         break;
     case xpHeroi >= 6001 && xpHeroi <= 7000:
@@ -27,8 +27,5 @@ switch (true){
     case xpHeroi >= 10001:
         nivelHeroi = "Radiante" 
         break;
-    default :
-    console.log("O héroi de nome " + nomeHeroi, "está no nível de " + nivelHeroi ); 
-
 };
-console.log("O héroi de nome " + nomeHeroi, "está no nível de " + nivelHeroi );
+console.log("O héroi de nome " + nomeHeroi + "está no nível de " + nivelHeroi )
