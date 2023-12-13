@@ -28,4 +28,4 @@ switch (true){
         nivelHeroi = "Radiante" 
         break;
 };
-console.log("O héroi de nome " + nomeHeroi + "está no nível de " + nivelHeroi )
+console.log("O héroi de nome " + nomeHeroi + " está no nível de " + nivelHeroi )
